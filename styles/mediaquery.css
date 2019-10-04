@@ -1,0 +1,11 @@
+@media only screen and (max-width: 769px) {
+    .card {
+        margin-top: 17px;
+    }
+    #proimg {
+        margin-right: 40px;
+    }
+    #carobj {
+        margin-left: 18px;
+    }
+}

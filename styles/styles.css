@@ -1,0 +1,192 @@
+.h-2 {
+    height: 2%;
+}
+
+.bg-gradient-blue {
+    background: linear-gradient( #0b9aff, #090990);
+    width: auto;
+}
+
+#home-banner {
+    background: linear-gradient( #0d398a73, #2f59a773);
+}
+
+
+/*.logo{
+  font-family: 'Vollkorn SC', serif;
+font-family: 'Sonsie One', cursive;
+}*/
+
+.heading {
+    font-family: 'Bree Serif', serif;
+}
+
+.details {
+    font-family: 'Vollkorn SC', serif;
+}
+
+.grey {
+    color: #231f25;
+}
+
+.line {
+    border: 1px solid #0386f7;
+    width: 156px;
+}
+
+.line2 {
+    border: 1px solid #0386f7;
+    width: 156px;
+}
+
+.line3 {
+    border: 1px solid orange;
+    width: 156px;
+}
+
+.line4 {
+    border: 1px solid #41a746;
+    width: 156px;
+}
+
+.line5 {
+    border: 1px solid #248474;
+    width: 156px;
+}
+
+.line6 {
+    border: 1px solid #ffc107;
+    width: 156px;
+}
+
+.line7 {
+    border: 1px solid #dc3a45;
+    width: 156px;
+}
+
+.violet {
+    color: #0386f7;
+}
+
+.link-color {
+    color: #1d1e1f;
+}
+
+.lightblue {
+    color: #248474;
+}
+
+#career-banner {
+    background: linear-gradient( #2cc5f7, #077386);
+}
+
+.bg-grey {
+    background-color: #253182;
+}
+
+.hero-bkg-animated {
+    background: white url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 63px;
+    /*  padding-top: 120px;*/
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+.footer-bkg-animated {
+    background: white url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 168px;
+    /*  padding-top: 120px;*/
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+#project-banner {
+    background-image: linear-gradient( #ffe002, #f19e06);
+}
+
+#training-banner {
+    background: linear-gradient( #1f7768, #2eb1a9);
+}
+
+
+/*.card:hover{
+padding: 5px;
+}*/
+
+.card:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#sheroth:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 1s;
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
